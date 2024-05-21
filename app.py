@@ -32,5 +32,3 @@ def help():
         x2 = (-b - math.sqrt(b ** 2 - 4 * a * c)) / 2 * a
         print
         return f'Уравнение имеет два корня: {x1}, " и", {x2}'
-if __name__ == '__main__':
-    app.run(debug=True)
